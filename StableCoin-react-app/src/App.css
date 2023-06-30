@@ -1,0 +1,70 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.main-container {
+  background-color: #caf0f8;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+}
+
+.wallet-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.user-detail {
+  padding: 3px;
+  background-color: #90e0ef;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.wallet-button {
+  background-color: #80ed99;
+  padding: 3px;
+  border-radius: 5px;
+}
+
+.NUSD-details {
+  padding: 10px;
+  background-color: #90e0ef;
+  border-radius: 15px;
+}
+
+.nusd {
+  font-size: xx-large;
+  font-weight: bolder;
+}
+
+.form-container {
+  padding: 20px;
+  background-color: #90e0ef;
+  border-radius: 15px;
+}
+
+.form input {
+  min-width: 250px;
+  min-height: 40px;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 5px;
+}
+
+.form button {
+  background-color: #4361ee;
+  color: white;
+  border-radius: 5px;
+  min-height: 30px;
+  min-width: 100px;
+}
